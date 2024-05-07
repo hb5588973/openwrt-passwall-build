@@ -1,3 +1,4 @@
+#如果镜像太小，扩容 dd if/dev/zero bs=1M 500M >> 23053.img; parted 23053.img; resizepart 2 100%
 export http_proxy=http://192.168.100.139:2080
 export https_proxy=http://192.168.100.139:2080
 opkg update
